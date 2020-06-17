@@ -8,7 +8,7 @@ const MainNav = (props) => {
 
     return (
         <div>
-            <Navbar color="danger" light expand="md">
+            <Navbar color="dark" dark expand="md">
                 <NavbarBrand href="/">AYO MUSIC</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
