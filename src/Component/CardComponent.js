@@ -6,8 +6,9 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardGroup, CardFooter, Bu
 const Example = (props) => {
     return (
         <div>
-            <CardGroup>
-                <Card>
+            <h2>Pricing That Fits Every Budget</h2>
+            <CardGroup className="mt-5 ml-3 mr-3">
+                <Card >
                     <CardImg variant="top" src="holder.js/100px160" />
                     <CardBody>
                         <CardTitle>Card title</CardTitle>
@@ -17,7 +18,7 @@ const Example = (props) => {
                         </CardText>
                     </CardBody>
                     <CardFooter>
-                        <Button>Button</Button>
+                        <Button color="primary">primary</Button>
                     </CardFooter>
                 </Card>
                 <Card>
@@ -25,12 +26,11 @@ const Example = (props) => {
                     <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardText>
-                            This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+                            This card has supporting text below as a natural lead-in to additional content.
                         </CardText>
                     </CardBody>
                     <CardFooter>
-                        <Button>Button</Button>
+                        <Button color="primary">primary</Button>
                     </CardFooter>
                 </Card>
                 <Card>
@@ -44,7 +44,7 @@ const Example = (props) => {
                         </CardText>
                     </CardBody>
                     <CardFooter>
-                        <Button>Button</Button>
+                        <Button color="primary">primary</Button>
                     </CardFooter>
                 </Card>
             </CardGroup>
