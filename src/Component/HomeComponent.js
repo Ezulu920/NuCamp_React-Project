@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Col} from 'reactstrap';
-import img1 from '../images/iphone.png';
+import { Container } from 'reactstrap';
 
 const Homebody = (props) => {
     return (
@@ -14,12 +13,6 @@ const Homebody = (props) => {
         </Container>
 
             <Container className="download-btn">
-                <Container className="main">
-                    <Col className="phone">
-                        <img src={img1} alt="Iphone Mockup" />
-                    </Col>
-                </Container>
-
                 <h3>Download Our Amazing AYO Music App</h3>
                 <button className="app-btn">Download <i class="fab fa-app-store"></i></button>
                 <button className="app-btn">Download <i class="fab fa-google-play"></i></button>
