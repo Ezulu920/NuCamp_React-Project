@@ -1,14 +1,171 @@
-body {
-background: #FC466B;
-/* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
-/* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3F5EFB, #FC466B);
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+/* body {
+  font-family: sans-serif;
+  
 
 }
 
-.downloadbtn1{
-    justify-content: center;
+.logo{
+  flex: 5;
+  color: rgb(250, 160, 200);
+  font-size: 2.5rem;
+}
+
+.logo:hover {
+  color: rgb(250, 250, 250);
+}
+
+.container-fluid{
+  display: flex;
+  
+}
+
+.FeatureH2 {
+  margin-left: 40rem;
+}
+
+.card-body{
+  width: 10px;
+  height: 20px;
+} */
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
+  color: rgb(250, 160, 200);
+  background-color: #16042c;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.logo {
+  flex: 4;
+}
+
+.logo h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.right-nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-nav i {
+  float: right;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info h4 {
+  font-size: 60px;
+}
+
+.info h1 {
+  font-size: 90px;
+}
+
+.info p {
+  font-size: 30px;
+  width: 70%;
+  border-spacing: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(22, 166, 185);
+}
+.download-btn{
+  width: 30%;
+  margin-top: 3rem;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.app-btn {
+	background-color:#2d0070;
+	border-radius:100px;
+	border:1px solid rgb(22, 166, 185);
+	display:inline-block;
+  cursor:pointer;
+  color: rgb(250, 160, 200);
+	font-size:20px;
+	padding:16px 31px;
+  text-decoration:none;
+  margin-left: 40px;
+}
+.app-btn:hover {
+	background-color:#000000;
+}
+.app-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.phone img {
+  height: 600px;
+  transform: rotate(20deg);
+  margin-bottom: 3rem ;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .info h4 {
+    font-size: 30px;
+  }
+
+  .info h1 {
+    font-size: 70px;
+  }
+
+  .info p {
+    font-size: 25px;
+  }
+  .phone img {
+  height: 600px;
+  transform: rotate(0deg);
+  margin-top: 2rem;
+}
+.download-btn{
+  width: 100%;
+
+}
 }
